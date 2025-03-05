@@ -4,3 +4,4 @@
 ![image](https://github.com/user-attachments/assets/b8ae68bd-90e1-437b-a123-39661ff9cbc6)
 # Typescript.ts
 <img width="500px" src="https://github.com/user-attachments/assets/138b656d-3cbf-43a2-acd2-e418a41e8c82">
+
