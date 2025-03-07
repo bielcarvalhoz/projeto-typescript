@@ -9,7 +9,7 @@ const transacoes: Transacao[] =
         if (key == "data") {
             return new Date(value);
         }
-        return value
+        return value;
     }) || [];
 
 function debitar(valor: number): void {
@@ -76,7 +76,7 @@ const Conta = {
             novaTransacao.tipoTransacao == TipoTransacao.PAGAMENTO_BOLETO
         ) {
             debitar(novaTransacao.valor);
-            novaTransacao.valor *= -1
+            novaTransacao.valor *= -1;
         } else {
             throw new Error("Tipo de Transação é inválido!");
         }
